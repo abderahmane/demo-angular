@@ -1,0 +1,36 @@
+# Build et cache
+/dist/
+/out-tsc/
+/tmp/
+/bazel-out
+.angular/
+.sass-cache/
+/coverage/
+
+# Dépendances
+node_modules/
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Secrets et configuration locale (les modèles *.example restent versionnés)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Logs et fichiers système
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+.DS_Store
+Thumbs.db
